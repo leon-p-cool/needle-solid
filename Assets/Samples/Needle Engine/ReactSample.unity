@@ -1578,6 +1578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436528158}
+  - component: {fileID: 436528159}
   m_Layer: 0
   m_Name: Lighting
   m_TagString: Untagged
@@ -1602,6 +1603,26 @@ Transform:
   - {fileID: 311090495}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &436528159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436528157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 356a354e8e3243768275aff0d941f63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: qwantani_dusk_2_puresky_4k.exr
+  local:
+    Mode: 0
+    File: {fileID: 8900000, guid: b47d1c57e21f75041a0f6f57e4e4c138, type: 3}
+    String: 
+  allowDrop: 1
+  background: 1
+  environment: 0
 --- !u!1 &585794918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4599,7 +4620,7 @@ MonoBehaviour:
   minPolarAngle: 0
   maxPolarAngle: 3.1415927
   minAzimuthAngle: -6.2831845
-  maxAzimuthAngle: Infinity
+  maxAzimuthAngle: 6.2831855
   enableZoom: 1
   minZoom: 0
   maxZoom: Infinity
@@ -5638,7 +5659,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20.000116, z: 20.000116}
+  m_LocalScale: {x: 20, y: 20.000124, z: 20.000124}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

@@ -8,10 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Sky
-  m_Shader: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 1b04b2014a4a28b4eb6628daa8c44bd1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _CUBEMAP_USAGE_EXTRA
+  - _LOD_ON
+  - _NEEDLE_EDITOR_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -65,16 +68,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AutoBakeOnChanges: 1
+    - _BackgroundBlurriness: 0
+    - _BackgroundIntensity: 0.6
+    - _BakeBlurriness: 0
     - _BumpScale: 1
+    - _CUBEMAP_USAGE: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 0.46
+    - _Exposure: 0.6
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Lod: 1
     - _Metallic: 0
     - _Mode: 0
+    - _Needle_Editor: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Rotation: 0
