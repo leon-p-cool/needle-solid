@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scenes:
   - Path: Assets/Samples/Needle Engine/ReactSample.unity
-    Projects:
-    - ProjectPath: Library/Needle/React
+    Projects: []
     BuilderScene: 
-  Projects:
-  - ProjectPath: Library/Needle/React
+  Projects: []
