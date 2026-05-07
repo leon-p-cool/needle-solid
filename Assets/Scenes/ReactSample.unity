@@ -813,7 +813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060362933}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 61.492897, y: -28.676645, z: 2.5609608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -941,7 +941,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20.000078, z: 20.000078}
+  m_LocalScale: {x: 20, y: 20.00009, z: 20.00009}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -996,6 +996,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1430807596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1430807598}
+  - component: {fileID: 1430807599}
+  m_Layer: 0
+  m_Name: Navmesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1430807598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430807596}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 78.18293, y: -31.184021, z: -23.320068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1430807599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430807596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade244c251bec3f1e3575416e23a5901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bakeNavmeshOnExport: 1
 --- !u!1 &1783284219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,11 +1085,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 986a3a93ac16ec0428d8989979ec0966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Needle.Engine.ExportInfo, Needle.Engine.Common
-  DirectoryName: Library/Needle/React
+  DirectoryName: Library/Needle/Solid
   RemoteUrl: https://github.com/needle-engine/react-sample
   ExportOnSave: 1
   AutoCompress: 1
-  Dependencies: []
+  Dependencies:
+  - Name: needle.navmesh
+    Version: 1.0.0
+    Path: Packages/com.needle.engine-samples/Runtime/Navmesh/Scripts/Needle.Navmesh.npmdef
+    Guid: ca7a31910efe6904eb9476b41d8ff8ef
   CloudName: ReactSample
   CloudTeam: 
 --- !u!4 &1783284222
@@ -1219,3 +1268,4 @@ SceneRoots:
   - {fileID: 1235166916}
   - {fileID: 906032492}
   - {fileID: 1060362934}
+  - {fileID: 1430807598}
