@@ -119,7 +119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2277909557403282095}
-  - component: {fileID: 4027526413891501080}
+  - component: {fileID: 7779272391774049244}
   - component: {fileID: 4535511742165119621}
   m_Layer: 0
   m_Name: WanderAgent
@@ -146,7 +146,7 @@ Transform:
   - {fileID: 4621906564244574632}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4027526413891501080
+--- !u!114 &7779272391774049244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4313432135345357505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 479c09f97e3e0f26aabe1badb30aa020, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f55d574bb891be0b24bf3c4c90d540f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
