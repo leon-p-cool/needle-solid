@@ -1328,11 +1328,7 @@ MonoBehaviour:
   RemoteUrl: https://github.com/needle-engine/react-sample
   ExportOnSave: 1
   AutoCompress: 1
-  Dependencies:
-  - Name: needle.navmesh
-    Version: 1.0.0
-    Path: Packages/com.needle.engine-samples/Runtime/Navmesh/Scripts/Needle.Navmesh.npmdef
-    Guid: ca7a31910efe6904eb9476b41d8ff8ef
+  Dependencies: []
   CloudName: ReactSample
   CloudTeam: 
 --- !u!4 &1783284222
