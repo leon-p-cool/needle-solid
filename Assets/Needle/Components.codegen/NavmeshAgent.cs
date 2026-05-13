@@ -10,9 +10,9 @@ namespace Needle.Typescript.GeneratedComponents
 		public float @speed = 0.5f;
 		public float @delayBetweenRandomTargets = 1f;
 		public UnityEngine.Vector2 @squareArea = new UnityEngine.Vector2(5f, 5f);
-		public UnityEngine.MeshRenderer @bodyRenderer;
 		public bool @moveRandomlyWhenIdle = true;
 		public void Awake() {}
+		public void Start() {}
 		public void moveToRandomTarget() {}
 		public void moveTo(UnityEngine.Vector3 @target, object @onArrived) {}
 		public void stopMoving() {}
