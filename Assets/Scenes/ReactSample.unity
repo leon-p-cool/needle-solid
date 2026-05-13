@@ -897,6 +897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WanderAgent (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7779272391774049244, guid: 8fdf2f5085566034caa7b0b22f6938fe, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
